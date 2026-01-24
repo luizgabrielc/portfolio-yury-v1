@@ -1,3 +1,6 @@
+import React from "react";
+import Link from "next/link";
+
 export interface MediaItem {
   type: "image" | "video" | "youtube";
   src: string;
@@ -6,7 +9,7 @@ export interface MediaItem {
 export interface Project {
   id: string;
   title: string;
-  description: string;
+  description: string | React.ReactNode;
   category: string;
   cover: string;
   media: MediaItem[];
@@ -123,6 +126,55 @@ export const projects: Project[] = [
       { type: "image", src: "/resources/Work 6/splenda-todositens.png" },
       { type: "image", src: "/resources/Work 6/carta_amarela.png" },
       { type: "image", src: "/resources/Work 6/splenda-carta-azul.png" },
+    ],
+  },
+  {
+    id: "bailinho-mara",
+    title: "Bailinho Mara",
+    description: React.createElement(
+      React.Fragment,
+      null,
+      "Uma rede viva de corpos, batidas e imagens que se conectam para hackear a noite e reprogramar o futuro. Nascido do underground, o BMF atua como um território de experimentação sonora e estética, onde artistas de diferentes origens compartilham códigos próprios, remixando linguagens e transformando a pista em um campo de energia coletiva. Cada edição é um manifesto em movimento: performance, som, moda e visualidade se fundem num mesmo pulso, desenhando a arquitetura viva e pulsante da Bailly, produtora e plataforma cultural que assina o festival.",
+      React.createElement("br"),
+      React.createElement("br"),
+      "Em 2025, o BMF_ reúne +13 atrações e nomes que simbolizam o presente e o futuro da cena eletrônica: As djs Tiana (PA), IDLIBRA (PE) e a performer UCL ORION (CE) — três potências que traduzem o espírito do evento: intenso, plural e expansivo.",
+      React.createElement("br"),
+      React.createElement("br"),
+      "O Bailinho Mara Festival 2025 é uma realização Bailly Prod., com recursos da Lei Paulo Gustavo, do Ministério da Cultura, por meio da Secretaria Estadual de Cultura (",
+      React.createElement(
+        Link,
+        {
+          href: "https://www.instagram.com/cultura.maranhao/",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          className: "underline hover:opacity-70 transition-opacity",
+        },
+        "@cultura.maranhao"
+      ),
+      ") e do Governo do Estado do Maranhão (",
+      React.createElement(
+        Link,
+        {
+          href: "https://www.instagram.com/governoma/",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          className: "underline hover:opacity-70 transition-opacity",
+        },
+        "@governoma"
+      ),
+      ")."
+    ),
+    category: "Eventos",
+    cover: "/resources/Work 7/art-6.gif",
+    media: [
+      { type: "image", src: "/resources/Work 7/art-6.gif" },
+      { type: "image", src: "/resources/Work 7/art-1.png" },
+      { type: "image", src: "/resources/Work 7/art-2.gif" },
+      { type: "image", src: "/resources/Work 7/art-3.gif" },
+      { type: "image", src: "/resources/Work 7/art-5.gif" },
+      { type: "image", src: "/resources/Work 7/art-7.gif" },
+      { type: "image", src: "/resources/Work 7/art-8.gif" },
+      { type: "image", src: "/resources/Work 7/art-9.gif" },
     ],
   },
 ];

@@ -92,9 +92,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <span className="font-bootzy text-xs tracking-[0.15em] uppercase text-[#010103] mb-4 block">
                 / ABOUT THE PROJECT
               </span>
-              <p className="font-bootzy text-lg leading-relaxed text-[#010103]">
+              <div className="font-bootzy text-lg leading-relaxed text-[#010103]">
                 {project.description}
-              </p>
+              </div>
             </div>
             <div>
               <span className="font-bootzy text-xs tracking-[0.15em] uppercase text-[#010103] mb-4 block">

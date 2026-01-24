@@ -4,6 +4,7 @@
   --background: #ffffff;
   --foreground: #010103;
   --font-bootzy: var(--font-bootzy);
+  --font-bootzy-ttf: var(--font-bootzy-ttf);
   --font-roc-grotesk: var(--font-roc-grotesk);
 }
 
@@ -11,6 +12,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-bootzy: var(--font-bootzy);
+  --font-bootzy-ttf: var(--font-bootzy-ttf);
   --font-roc-grotesk: var(--font-roc-grotesk);
 }
 
@@ -23,6 +25,10 @@ body {
 /* Font utility classes */
 .font-bootzy {
   font-family: var(--font-bootzy), Arial, Helvetica, sans-serif;
+}
+
+.font-bootzy-ttf {
+  font-family: var(--font-bootzy-ttf), Arial, Helvetica, sans-serif;
 }
 
 .font-roc-grotesk {

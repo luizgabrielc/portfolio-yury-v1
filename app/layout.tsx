@@ -8,6 +8,12 @@ const bootzyFont = localFont({
   variable: "--font-bootzy",
 });
 
+const bootzyTtfFont = localFont({
+  src: "./resources/Fonts/Bootzy TM.ttf",
+  display: "swap",
+  variable: "--font-bootzy-ttf",
+});
+
 const rocGroteskFont = localFont({
   src: "./resources/Fonts/roc-grotesk-wide.otf",
   display: "swap",
@@ -27,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${bootzyFont.variable} ${rocGroteskFont.variable} antialiased`}
+        className={`${bootzyFont.variable} ${bootzyTtfFont.variable} ${rocGroteskFont.variable} antialiased`}
       >
         {children}
       </body>
