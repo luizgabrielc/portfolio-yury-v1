@@ -197,6 +197,7 @@ export const projects: Project[] = [
       { type: "image", src: "/resources/Work 8/ce01ee196527723.6621865fa8707.png" },
       { type: "image", src: "/resources/Work 8/d1ba8a196527723.6621865fa8fb3.png" },
       { type: "image", src: "/resources/Work 8/e98b6d196527723.662196ce1b716.png" },
+      { type: "video", src: "/resources/Work 8/Creative La Madre.mp4" },
     ],
   },
 ];
