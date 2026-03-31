@@ -50,7 +50,7 @@ export default function Footer({
           rel="noopener noreferrer"
           className="text-xs tracking-[0.15em] uppercase text-[#010103] hover:opacity-70 transition-opacity"
         >
-          MADE BY INÁCIO
+          MADE BY HYAGO
         </Link>
         <span className="text-xs tracking-[0.15em] uppercase text-[#010103]">
           ©2025

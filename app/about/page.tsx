@@ -49,7 +49,7 @@ export default function AboutPage() {
             >
               JYUEBRIAN
             </Link>
-            <span>MADE BY INÁCIO</span>
+            <span>MADE BY HYAGO</span>
           </div>
         </footer>
       </main>
