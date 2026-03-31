@@ -235,7 +235,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               >
                 LINKEDIN
               </Link>
-              <span>MADE BY INÁCIO</span>
+              <span>MADE BY HYAGO</span>
             </div>
           </footer>
         </section>

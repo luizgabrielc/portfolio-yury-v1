@@ -177,6 +177,28 @@ export const projects: Project[] = [
       { type: "image", src: "/resources/Work 7/art-9.gif" },
     ],
   },
+  {
+    id: "la-madre",
+    title: "La Madre",
+    description:
+      "A agência La Madre, fundada por André Marino e sediada na capital de São Paulo, é uma hub criativa que se destaca por seu trabalho colaborativo e abordagem inovadora. Com uma equipe talentosa e multidisciplinar, a La Madre atende uma variedade de agências e marcas, oferecendo soluções criativas e estratégicas para os desafios de branding, marketing e comunicação.\n\nDesenvolver uma nova identidade de marca é um processo emocionante e crucial para manter a relevância e a diferenciação no mercado.",
+    category: "Branding",
+    cover: "/resources/Work 8/45d62d196527723.6621865fad712.png",
+    media: [
+      { type: "image", src: "/resources/Work 8/45d62d196527723.6621865fad712.png" },
+      { type: "image", src: "/resources/Work 8/5bd4b1196527723.6621865faa9d7.png" },
+      { type: "image", src: "/resources/Work 8/5d3de6196527723.6621865fac690.png" },
+      { type: "image", src: "/resources/Work 8/63923a196527723.6621865fa987d.png" },
+      { type: "image", src: "/resources/Work 8/65a6cd196527723.66212e8ce866f.png" },
+      { type: "image", src: "/resources/Work 8/6762b1196527723.6621865657fae.png" },
+      { type: "image", src: "/resources/Work 8/7b04e0196527723.6621865fabf26.png" },
+      { type: "image", src: "/resources/Work 8/88ba81196527723.6621865fab46e.png" },
+      { type: "image", src: "/resources/Work 8/a156e6196527723.66212e8ce7d24.png" },
+      { type: "image", src: "/resources/Work 8/ce01ee196527723.6621865fa8707.png" },
+      { type: "image", src: "/resources/Work 8/d1ba8a196527723.6621865fa8fb3.png" },
+      { type: "image", src: "/resources/Work 8/e98b6d196527723.662196ce1b716.png" },
+    ],
+  },
 ];
 
 export const clients = [
